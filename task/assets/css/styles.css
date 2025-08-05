@@ -1,0 +1,60 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.nav-link {
+  margin-right: 15px;
+}
+.nav-link.active {
+  font-weight: bold;
+  color: #f8f9fa !important;
+}
+
+/* Hero Section */
+section.bg-primary {
+  background-image: linear-gradient(135deg, #007bff, #6610f2);
+  background-size: cover;
+  color: white;
+}
+
+/* Cards */
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+}
+
+/* Contact Form */
+form input, form textarea {
+  border-radius: 0.3rem;
+}
+
+/* Responsive Enhancements */
+@media (max-width: 767.98px) {
+  .navbar-brand {
+    font-size: 1.25rem;
+  }
+  .hero-title {
+    font-size: 2rem;
+  }
+}
